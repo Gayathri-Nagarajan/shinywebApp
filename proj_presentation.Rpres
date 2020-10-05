@@ -1,0 +1,35 @@
+Shiny App Project presentation
+========================================================
+author: Gayathri Nagarajan
+date: 10/4/2020
+autosize: true
+
+1.What does this Shiny App do
+========================================================
+
+Simple Shiny App to dynamically select and display a data set
+This has 4 tabs that change dynamically based on input selected
+- Correlation Plot to show the correlation of the features in the data set
+- Summary tab to show the mean, median etc of each column in the data set
+- Table tab to show the # number of observations selected from the data set
+- The dynamic plot tab that displays a simple plot of x and y axis selected.
+
+2.Example to show the summary of mtcars
+========================================================
+
+```{r}
+summary(mtcars)
+```
+
+3.Example to show correlation plot of mtcars
+========================================================
+
+```{r, echo=FALSE}
+plot(mtcars)
+```
+4.Example to show the data of mtcars
+========================================================
+
+```{r}
+head(mtcars)
+```
